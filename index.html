@@ -1,145 +1,64 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dudy - ألعاب ممتعة</title>
+  <meta charset="UTF-8">
+  <title>موقع Dudy للألعاب</title>
   <style>
     body {
-      margin: 0;
-      font-family: 'Cairo', sans-serif;
-      background-color: #f5f7fa;
+      font-family: Tahoma, sans-serif;
+      background-color: #f0f8ff;
       color: #333;
       text-align: center;
+      margin: 0;
+      padding: 0;
     }
     header {
-      background-color: #7fb3d5;
-      padding: 20px;
+      background-color: #6ab0de;
       color: white;
+      padding: 20px;
     }
     h1 {
       margin: 0;
-      font-size: 2.5em;
     }
-    nav {
-      background-color: #d6eaf8;
-      padding: 10px;
-    }
-    nav a {
-      margin: 0 15px;
-      color: #2e86c1;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 1.1em;
-    }
-    .game-section {
-      padding: 30px 10px;
-    }
-    .game-category {
-      margin-bottom: 50px;
+    section {
+      margin: 30px;
     }
     iframe {
+      width: 90%;
+      max-width: 600px;
+      height: 400px;
       border: none;
-      width: 100%;
-      max-width: 700px;
-      height: 500px;
+      margin-bottom: 40px;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      margin: 20px 0;
-    }
-    .section-box {
-      background-color: #ffffff;
-      padding: 20px;
-      text-align: left;
-      direction: ltr;
-      max-width: 800px;
-      margin: 0 auto 50px auto;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-      font-size: 0.95em;
     }
     footer {
-      background-color: #7fb3d5;
+      background-color: #6ab0de;
       color: white;
       padding: 10px;
-      font-size: 0.9em;
+      font-size: 0.8em;
     }
   </style>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
 </head>
 <body>
+
   <header>
-    <h1>Dudy</h1>
-    <p>مرحبًا بك في عالم الألعاب البسيطة والمسلية!</p>
+    <h1>🎮 Dudy - ألعاب بسيطة ومسلية</h1>
+    <p>مرحبًا بك! اختر لعبة وابدأ اللعب مباشرة.</p>
   </header>
 
-  <nav>
-    <a href="#smart">ألعاب ذكاء</a>
-    <a href="#fun">ألعاب تسلية</a>
-    <a href="#kids">ألعاب أطفال</a>
-    <a href="#adventure">ألعاب مغامرات</a>
-    <a href="#about">About</a>
-    <a href="#privacy">Privacy Policy</a>
-  </nav>
+  <section>
+    <h2>لعبة الثعبان</h2>
+    <iframe src="https://html5games.com/Game/Snake/html5" title="لعبة الثعبان"></iframe>
+  </section>
 
-  <div class="game-section">
-    <h2>🎮 الألعاب حسب الفئة</h2>
-
-    <div id="smart" class="game-category">
-      <h3>🧠 ألعاب ذكاء</h3>
-      <iframe src="https://html5games.com/Game/Maze/html5" title="لعبة المتاهة"></iframe>
-      <iframe src="https://html5games.com/Game/JigsawPuzzle/html5" title="لعبة الألغاز"></iframe>
-    </div>
-
-    <div id="fun" class="game-category">
-      <h3>🎯 ألعاب تسلية</h3>
-      <iframe src="https://html5games.com/Game/Snake/html5" title="لعبة الثعبان"></iframe>
-      <iframe src="https://html5games.com/Game/BubbleShooter/html5" title="لعبة تطابق الكرات"></iframe>
-    </div>
-
-    <div id="kids" class="game-category">
-      <h3>👶 ألعاب أطفال</h3>
-      <iframe src="https://html5games.com/Game/AnimalsMemory/html5" title="لعبة الذاكرة الحيوانية"></iframe>
-      <iframe src="https://html5games.com/Game/KidsPuzzle/html5" title="لعبة بازل للأطفال"></iframe>
-    </div>
-
-    <div id="adventure" class="game-category">
-      <h3>🗺️ ألعاب مغامرات</h3>
-      <iframe src="https://html5games.com/Game/JungleRun/html5" title="لعبة مغامرة الغابة"></iframe>
-      <iframe src="https://html5games.com/Game/NinjaRun/html5" title="لعبة النينجا"></iframe>
-    </div>
-  </div>
-
-  <div class="section-box" id="about">
-    <h2>About Dudy</h2>
-    <p>
-      Dudy is a simple and fun web platform created to provide users of all ages with easy access to enjoyable and educational online games.
-      Our goal is to offer a clean, safe, and ad-free environment where anyone can relax and have fun with classic and modern browser-based games.
-    </p>
-    <p>
-      Whether you're a child discovering puzzle games or an adult taking a quick break, Dudy is here for your entertainment.
-      We are always adding new games and features to make your experience better.
-    </p>
-    <p><strong>Thanks for visiting Dudy!</strong></p>
-  </div>
-
-  <div class="section-box" id="privacy">
-    <h2>Privacy Policy</h2>
-    <p>
-      At Dudy, we value your privacy. This website does not collect any personal data from its users.
-      The games embedded on this site are provided via secure third-party platforms and do not collect personal information.
-    </p>
-    <p>
-      We do not use cookies, tracking technologies, or any advertising services. You can play all games freely without any need to sign up or share personal data.
-    </p>
-    <p>
-      If you have any concerns or questions, feel free to contact us. We are committed to providing a safe and enjoyable experience for all our visitors.
-    </p>
-    <p><strong>Last updated:</strong> June 23, 2025</p>
-  </div>
+  <section>
+    <h2>لعبة الفقاعات</h2>
+    <iframe src="https://html5games.com/Game/BubbleShooter/html5" title="لعبة الفقاعات"></iframe>
+  </section>
 
   <footer>
-    &copy; 2025 Dudy. جميع الحقوق محفوظة.
+    &copy; 2025 Dudy - جميع الحقوق محفوظة
   </footer>
+
 </body>
 </html>
